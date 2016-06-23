@@ -16,6 +16,9 @@
 		293AF8F31D1B801500B02B9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 293AF8F11D1B801500B02B9D /* LaunchScreen.storyboard */; };
 		293AF8FE1D1B801500B02B9D /* Reactive_programmingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 293AF8FD1D1B801500B02B9D /* Reactive_programmingTests.m */; };
 		293AF9091D1B801500B02B9D /* Reactive_programmingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 293AF9081D1B801500B02B9D /* Reactive_programmingUITests.m */; };
+		293AF9191D1B806900B02B9D /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 293AF9181D1B806900B02B9D /* Person.m */; };
+		293AF91C1D1B80CE00B02B9D /* NSObject+KVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 293AF91B1D1B80CE00B02B9D /* NSObject+KVO.m */; };
+		293AF91F1D1B815000B02B9D /* YLKVONotifi_Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 293AF91E1D1B815000B02B9D /* YLKVONotifi_Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,12 @@
 		293AF9041D1B801500B02B9D /* Reactive programmingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Reactive programmingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		293AF9081D1B801500B02B9D /* Reactive_programmingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Reactive_programmingUITests.m; sourceTree = "<group>"; };
 		293AF90A1D1B801500B02B9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		293AF9171D1B806900B02B9D /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		293AF9181D1B806900B02B9D /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		293AF91A1D1B80CE00B02B9D /* NSObject+KVO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+KVO.h"; sourceTree = "<group>"; };
+		293AF91B1D1B80CE00B02B9D /* NSObject+KVO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+KVO.m"; sourceTree = "<group>"; };
+		293AF91D1D1B815000B02B9D /* YLKVONotifi_Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLKVONotifi_Person.h; sourceTree = "<group>"; };
+		293AF91E1D1B815000B02B9D /* YLKVONotifi_Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLKVONotifi_Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +117,8 @@
 				293AF8E41D1B801500B02B9D /* AppDelegate.m */,
 				293AF8E61D1B801500B02B9D /* ViewController.h */,
 				293AF8E71D1B801500B02B9D /* ViewController.m */,
+				293AF9171D1B806900B02B9D /* Person.h */,
+				293AF9181D1B806900B02B9D /* Person.m */,
 				293AF8E91D1B801500B02B9D /* Main.storyboard */,
 				293AF8EF1D1B801500B02B9D /* Assets.xcassets */,
 				293AF8F11D1B801500B02B9D /* LaunchScreen.storyboard */,
@@ -147,6 +158,10 @@
 		293AF9161D1B801F00B02B9D /* KVO */ = {
 			isa = PBXGroup;
 			children = (
+				293AF91A1D1B80CE00B02B9D /* NSObject+KVO.h */,
+				293AF91B1D1B80CE00B02B9D /* NSObject+KVO.m */,
+				293AF91D1D1B815000B02B9D /* YLKVONotifi_Person.h */,
+				293AF91E1D1B815000B02B9D /* YLKVONotifi_Person.m */,
 			);
 			name = KVO;
 			sourceTree = "<group>";
@@ -283,7 +298,10 @@
 			files = (
 				293AF8E81D1B801500B02B9D /* ViewController.m in Sources */,
 				293AF8E51D1B801500B02B9D /* AppDelegate.m in Sources */,
+				293AF91C1D1B80CE00B02B9D /* NSObject+KVO.m in Sources */,
+				293AF9191D1B806900B02B9D /* Person.m in Sources */,
 				293AF8EE1D1B801500B02B9D /* Reactive_programming.xcdatamodeld in Sources */,
+				293AF91F1D1B815000B02B9D /* YLKVONotifi_Person.m in Sources */,
 				293AF8E21D1B801500B02B9D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
